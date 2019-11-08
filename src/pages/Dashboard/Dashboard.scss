@@ -1,0 +1,33 @@
+.dash-cards {
+  padding: 1.25rem;
+  height: 120px;
+
+  .card-body {
+    padding: 0 !important;
+  }
+}
+
+.active-inactive-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.drop-down-row {
+  margin-bottom: 20px;
+}
+
+.app-settings-card {
+  width: 100%;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 95%;
+  line-height: 1.2;
+}

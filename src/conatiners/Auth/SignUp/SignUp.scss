@@ -1,0 +1,28 @@
+@import "../../../styles/Scss/main";
+
+.sign-up-page {
+  background-color: $dark-color;
+}
+
+CardBody {
+  padding: 30px !important;
+}
+
+.logo-bar {
+  h2 {
+    color: $white-color;
+    margin-top: 5px;
+  }
+
+  img {
+    margin: 14px;
+  }
+
+  margin: 20px 4px 0;
+  height: 46px;
+  background-color: $dark-color;
+}
+
+.drop-down-row {
+  margin-bottom: 16px;
+}

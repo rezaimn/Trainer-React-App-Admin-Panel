@@ -1,0 +1,54 @@
+@import "../../../styles/Scss/main";
+
+.sign-in-page {
+  background-color: $dark-color;
+}
+
+.form-title {
+  margin-bottom: 40px;
+}
+
+Card {
+  padding-top: 0;
+}
+
+.forget-password {
+  padding-top: 8px;
+
+  a {
+    @extend .links;
+    margin-top: 14px;
+    font-size: 12px;
+  }
+
+}
+
+.sign-up {
+  h2 {
+    margin-bottom: 30px;
+
+    p {
+      margin-bottom: 30px;
+      font-size: 17px;
+    }
+  }
+}
+
+.logo-bar {
+  h2 {
+    color: $white-color;
+    margin-top: 5px;
+  }
+
+  img {
+    margin: 14px;
+  }
+
+  margin-left: -20px;
+  margin-right: -20px;
+  height: 46px;
+  background-color: $dark-color;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+
+}

@@ -1,0 +1,261 @@
+// Here you can add other styles
+@import './basic/colors';
+
+a {
+  text-decoration: none !important;
+}
+
+.font-30 {
+  font-size: 30px;
+}
+.main {
+  background: $white-color;
+}
+
+.font-navigation {
+  font-size: 12px !important;
+}
+
+.app-body {
+  margin-top: 50px !important;
+}
+
+.container-header {
+  background-color: $header-color;
+  height: 50px !important;
+}
+
+.container-sideBar {
+  color: #b4bcc8 !important;
+  background-color: $dark-color;
+  // width: 235px !important;
+}
+
+.sidebar {
+  .nav-link:hover {
+    color: #fff !important;
+    background-color: #2C3542 !important;
+  }
+
+  .nav-link.active {
+    color: #fff !important;
+    background-color: #2C3542 !important;
+  }
+
+  .nav-link {
+    color: #b4bcc8 !important;
+    + ul .nav-link {
+      padding-left: 30px !important;
+    }
+  }
+
+  .sidebar-nav {
+    // width: 235px !important;
+    //margin-top: 20px;
+  }
+
+  // .nav {
+  //   width: 235px !important;
+  // }
+}
+
+// custom header between sidebar
+.app-header {
+  border-bottom: 0px !important;
+}
+
+// .main {
+//   margin-left: 235px !important;
+// }
+button:focus {
+  outline: none !important;
+}
+
+@media (min-width: 992px) {
+  .sidebar-fixed .app-header + .app-body .sidebar {
+    height: calc(100vh - 50px);
+  }
+}
+
+.input-group {
+  height: 42px;
+
+  input {
+    height: 42px;
+  }
+}
+
+.primary-btn {
+  background-color: $primary-color;
+  color: $white-color;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.primary-btn:hover {
+  background-color: $primary-color-hover;
+  color: $white-color;
+}
+
+.primary-bg-color {
+  background-color: $primary-color;
+}
+
+.dark-btn {
+  background-color: $dark-color !important;
+  color: $white-color !important;
+}
+
+.links {
+  color: $primary-color !important;
+  cursor: pointer;
+}
+
+
+.icon-order-th {
+  margin-left: 5px;
+  color: rgb(204, 204, 204);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.invalid-feedback {
+  margin-top: 0px;
+}
+
+.bg-color-red {
+  border-color: red !important;
+}
+
+.scrollable {
+  overflow-y: scroll;
+}
+
+.sweet-loading {
+  position: absolute;
+  // background-color: #fff;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 60px;
+  height: 60px;
+  z-index: 9999999;
+  margin: auto;
+  border-radius: 5px;
+  // box-shadow: 1px 1px 4px 0px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-box {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.action-icon {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.card-header-title {
+  margin-top: 10px;
+}
+
+.rounded-btn {
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  .btn-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+hr {
+  width: 100%;
+}
+
+.csv-btn {
+  border-radius: 30px;
+  padding: 10px;
+  border: 2px solid $primary-color;
+  background: #fff;
+  margin: 20px;
+}
+
+.react-datepicker-wrapper {
+  width: 100% !important;
+  height: 42px;
+}
+
+.date-picker-base {
+  .react-datepicker__input-container {
+    input {
+      height: 42px;
+      padding-left: 50px;
+    }
+  }
+}
+
+.date-picker-icon {
+  position: relative;
+  top: 71px;
+  z-index: 10;
+  height: 42px;
+  width: 40px;
+}
+
+.date-picker-base {
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.input-group-text {
+  width: 40px;
+}
+
+.input-group {
+  height: 42px;
+  margin-bottom: 15px;
+
+  select {
+    height: 42px !important;
+  }
+
+}
+
+.phone-label {
+  position: relative;
+  top: -25px;
+}
+
+.phone-input {
+  height: 42px;
+  padding-left: 50px;
+  margin-top: -25px;
+}
+
+.phone-icon {
+  position: relative;
+  top: 46px;
+  z-index: 10;
+  height: 42px;
+  width: 40px;
+}
+
+.form-control {
+  height: 42px;
+}
+
+.react-tagsinput-input {
+  width: auto !important;
+}

@@ -1,0 +1,32 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import * as serviceWorker from "./serviceWorker";
+import App from "./conatiners/App";
+import {Provider} from "react-redux";
+import {store} from "logic";
+import {LazyLoading} from "./components";
+import {ToastContainer} from "react-toastify";
+import {BrowserRouter as Router,} from "react-router-dom";
+// import styles
+import "./styles/Scss/main.scss";
+import "react-toastify/dist/ReactToastify.css";
+import "react-datepicker/dist/react-datepicker.css";
+
+import 'react-tagsinput/react-tagsinput.css'
+
+ReactDOM.render(
+    <Provider store={store}>
+        <Router>
+            <React.Suspense fallback={<LazyLoading />}>
+                <App />
+            </React.Suspense>
+        </Router>
+        <ToastContainer />
+    </Provider>,
+    document.getElementById("root")
+);
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
